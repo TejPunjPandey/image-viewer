@@ -1,0 +1,36 @@
+button {
+    text-transform: uppercase;
+    width: fit-content;
+    border: none;
+    color: white;
+    background: #3F51B5;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgb(210, 210, 210);
+    transition: all 0.3s;
+}
+
+button:hover {
+    transform: translateX(-2px) translateY(-2px);
+    box-shadow: 3px 3px 1px rgb(210, 210, 210);
+
+}
+
+
+input{
+    border: none;
+    border-bottom: 1px solid grey;
+    color: grey;
+    margin-top: 2.5rem;
+    
+}
+
+
+input:focus {
+    outline: none;
+    border-bottom-width: 2px;
+    border-bottom-color: #3F51B5;
+    color: black;
+}
+

@@ -1,0 +1,24 @@
+.input-box {
+    position: relative;
+    flex-grow: 1;
+    margin: 1rem 1rem 0 0;
+    font-size: 16px;
+}
+
+.input-box input {
+    box-sizing: border-box;
+    height: 35px;
+    width: 100%;
+    background: transparent;
+    transition: all 0.7s;
+}
+
+.input-box span {
+    z-index: -5;
+    position: absolute;
+    transform: translateY(0);
+    bottom: 9px;
+    left: 4px;
+    transition: all 0.5s;
+}
+

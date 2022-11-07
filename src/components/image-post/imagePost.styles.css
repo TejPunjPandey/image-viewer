@@ -1,0 +1,55 @@
+.post-container {
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 2px 2px 5px rgb(212, 212, 212);
+    border-radius: 10px;
+}
+
+hr {
+    width: 100%;
+}
+
+.post-image {
+    max-width: 40rem;
+    margin: 1rem 0;
+}
+
+.post-caption {
+    margin: 0.5rem 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.post-hashtags {
+    color: rgb(41, 171, 201);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.post-likes {
+    display: flex;
+    margin: 1rem 0;
+    font-size: 16px;
+    align-items: center;
+}
+
+.post-likes span {
+    margin-left: 1rem;
+    align-self: flex-start;
+}
+
+.post-comments{
+    font-size: 18px;
+}
+
+.post-comments p{
+margin: 0.5rem 0;
+}
+.post-add-comment {
+    display: flex;
+    align-items: flex-end;
+}
+
